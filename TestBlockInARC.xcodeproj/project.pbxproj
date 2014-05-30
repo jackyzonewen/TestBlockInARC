@@ -21,6 +21,7 @@
 		0C3FCAE11938322A00C48C5A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C3FCAC31938322A00C48C5A /* UIKit.framework */; };
 		0C3FCAE91938322A00C48C5A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0C3FCAE71938322A00C48C5A /* InfoPlist.strings */; };
 		0C3FCAEB1938322A00C48C5A /* TestBlockInARCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C3FCAEA1938322A00C48C5A /* TestBlockInARCTests.m */; };
+		0C3FCAF619386AAF00C48C5A /* CycleRetainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C3FCAF519386AAF00C48C5A /* CycleRetainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		0C3FCAE61938322A00C48C5A /* TestBlockInARCTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestBlockInARCTests-Info.plist"; sourceTree = "<group>"; };
 		0C3FCAE81938322A00C48C5A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0C3FCAEA1938322A00C48C5A /* TestBlockInARCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestBlockInARCTests.m; sourceTree = "<group>"; };
+		0C3FCAF419386AAF00C48C5A /* CycleRetainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CycleRetainViewController.h; sourceTree = "<group>"; };
+		0C3FCAF519386AAF00C48C5A /* CycleRetainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CycleRetainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				0C3FCAD11938322A00C48C5A /* Main.storyboard */,
 				0C3FCAD41938322A00C48C5A /* ViewController.h */,
 				0C3FCAD51938322A00C48C5A /* ViewController.m */,
+				0C3FCAF419386AAF00C48C5A /* CycleRetainViewController.h */,
+				0C3FCAF519386AAF00C48C5A /* CycleRetainViewController.m */,
 				0C3FCAD71938322A00C48C5A /* Images.xcassets */,
 				0C3FCAC61938322A00C48C5A /* Supporting Files */,
 			);
@@ -249,6 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C3FCAF619386AAF00C48C5A /* CycleRetainViewController.m in Sources */,
 				0C3FCAD61938322A00C48C5A /* ViewController.m in Sources */,
 				0C3FCAD01938322A00C48C5A /* AppDelegate.m in Sources */,
 				0C3FCACC1938322A00C48C5A /* main.m in Sources */,
